@@ -32,7 +32,7 @@ class ShowPlayerList extends Component {
     let playerList;
 
     if(!players) {
-      playerList = "there is no book record!";
+      playerList = "there is no plyaer record!";
     } else {
       playerList = players.map((player, k) =>
         <PlayerCard player={player} key={k} />
